@@ -1,0 +1,17 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1",
+  "node.version": "v20.11.1",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/frontend",
+  "connect.javaSourceFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/src/main/java",
+  "javaResourceFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/src/main/resources",
+  "connect.applicationProperties": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/src/main/resources/application.properties",
+  "connect.openApiFile": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/generated-resources/openapi.json",
+  "project.frontend.generated": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/frontend/generated",
+  "pnpm.enable": false,
+  "bun.enable": false,
+  "require.home.node": false,
+  "build.folder": "build"
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<view xmlns="http://jmix.io/schema/flowui/view"
+      title="msg://projectDetailView.title"
+      focusComponent="form">
+    <data>
+        <collection id="employeesDc"
+                    class="com.company.projectsystem.entity.Employee">
+            <fetchPlan extends="_base"/>
+            <loader id="employeesDl" readOnly="true">
+                <query>
+                    <![CDATA[select e from Employee e]]>
+                </query>
+            </loader>
+        </collection>
+        <instance id="projectDc"
+                  class="com.company.projectsystem.entity.Project">
+            <fetchPlan extends="_base">
+                <property name="employees" fetchPlan="_base"/>
+            </fetchPlan>
+            <loader/>
+        </instance>
+    </data>
+    <facets>
+        <dataLoadCoordinator auto="true"/>
+    </facets>
+    <actions>
+        <action id="saveAction" type="detail_saveClose"/>
+        <action id="closeAction" type="detail_close"/>
+    </actions>
+    <layout>
+        <formLayout id="form" dataContainer="projectDc">
+            <textField id="nameField" property="name"/>
+            <textField id="descriptionField" property="description"/>
+        </formLayout>
+        <dataGrid id="employeesDataGrid" dataContainer="employeesDc" width="100%" height="100%">
+            <columns>
+                <column key="participates" sortable="false" width="4em" flexGrow="0"/>
+                <column property="fullName"/>
+            </columns>
+        </dataGrid>
+        <hbox id="detailActions">
+            <button id="saveAndCloseBtn" action="saveAction"/>
+            <button id="closeBtn" action="closeAction"/>
+        </hbox>
+    </layout>
+</view>

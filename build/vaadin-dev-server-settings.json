@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/frontend/generated/jar-resources",
+  "staticOutput": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/classes/META-INF/VAADIN/config",
+  "frontendBundleOutput": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/classes/META-INF/VAADIN/webapp",
+  "devBundleOutput": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/dev-bundle/webapp",
+  "devBundleStatsOutput": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/dev-bundle/config",
+  "jarResourcesFolder": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/frontend/generated/jar-resources",
+  "themeName": "ProjectSystem",
+  "clientServiceWorkerSource": "/Users/dogacgulacan/Desktop/ProjectSystem_V1/build/sw.ts",
+  "pwaEnabled": true,
+  "offlineEnabled": true,
+  "offlinePath": "'.'"
+}
